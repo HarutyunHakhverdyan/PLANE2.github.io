@@ -1,5 +1,5 @@
 const app= new PIXI.Application({
-  background: '5BFF03',
+  background: '03CAFF',
   width:800,
   height:400
 })
