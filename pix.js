@@ -52,7 +52,7 @@ class Plane{
       }
    }
 }
-for(let i=0;i<20;i++){
+for(let i=0;i<25;i++){
 let plane=new Plane()
 plane.addChild()
  arr.push(plane)
@@ -95,7 +95,6 @@ app.ticker.add(()=>{
                   arr[i].sprite.scale.x*=1.003
                   arr[i].sprite.x*=1.003
                   arr[i].sprite.y-=0.2
-                  
                 }else{
                   ++t
                   if(t==1){
