@@ -1,5 +1,5 @@
 const app= new PIXI.Application({
-  background: '01FFBF',
+  background: '5BFF03',
   width:800,
   height:400
 })
@@ -34,7 +34,7 @@ class Plane{
             if(this.sprite.y>-110&&this.sprite.x!=-80){
                 cond1=0
                 d=2
-                this.sprite.y-=6
+                this.sprite.y-=5
              }else{
               cond2=0
               cond1=1
